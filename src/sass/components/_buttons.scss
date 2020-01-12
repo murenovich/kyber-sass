@@ -1,0 +1,15 @@
+// Buttons
+
+// Main Button Styles
+
+.button-primary {
+  @include button($gold);
+}
+
+.button-sith {
+  @include button($sithred);
+}
+
+.button-jedi {
+  @include button($jediblue);
+}

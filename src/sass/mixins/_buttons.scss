@@ -1,0 +1,28 @@
+// Buttons Mixin
+
+// TODO Add additional Buttons for Forms
+
+@mixin button($button-color) {
+  width: 150px;
+  height: 65px;
+  border: 5px solid $button-color;
+  font-family: StarJedi;
+  font-size: $base-font-size;
+  text-align: center;
+  background-color: $bggrey;
+  color: $button-color;
+
+  &:hover {
+    background: $black;
+    border: 5px solid $button-color;
+    color: $button-color;
+  }
+
+  &:active {
+    background: $button-color;
+    border: 5px solid $black;
+    color: $black;
+  }
+}
+
+
