@@ -1,5 +1,9 @@
 // Main Mixins file
 
-@import "mixins/buttons";
+@import "mixins/reset-text";
+@import "mixins/clearfix";
 @import "mixins/media-queries";
+@import "mixins/floats";
 @import "mixins/grid";
+@import "mixins/buttons";
+@import "mixins/images";

@@ -2,3 +2,14 @@
 
 $system-fonts: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;";
 $jedi-font: "StarJedi";
+
+// Font Weight Variables
+$fontw-lighter: lighter !default;
+$fontw-light: 300 !default;
+$fontw-normal: 400 !default;
+$fontw-bold: 700 !default;
+$fontw-bolder: bolder !default;
+
+$fontw-base: $fontw-normal !default;
+
+$line-height-base: 1.5 !default;

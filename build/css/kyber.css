@@ -1,57 +1,3 @@
-.button-primary {
-  width: 150px;
-  height: 65px;
-  border: 5px solid #F7B500;
-  font-family: StarJedi;
-  font-size: 1em;
-  text-align: center;
-  background-color: #1D1E1F;
-  color: #F7B500; }
-  .button-primary:hover {
-    background: #000000;
-    border: 5px solid #F7B500;
-    color: #F7B500; }
-  .button-primary:active {
-    background: #F7B500;
-    border: 5px solid #000000;
-    color: #000000; }
-
-.button-sith {
-  width: 150px;
-  height: 65px;
-  border: 5px solid #E02020;
-  font-family: StarJedi;
-  font-size: 1em;
-  text-align: center;
-  background-color: #1D1E1F;
-  color: #E02020; }
-  .button-sith:hover {
-    background: #000000;
-    border: 5px solid #E02020;
-    color: #E02020; }
-  .button-sith:active {
-    background: #E02020;
-    border: 5px solid #000000;
-    color: #000000; }
-
-.button-jedi {
-  width: 150px;
-  height: 65px;
-  border: 5px solid #32C5FF;
-  font-family: StarJedi;
-  font-size: 1em;
-  text-align: center;
-  background-color: #1D1E1F;
-  color: #32C5FF; }
-  .button-jedi:hover {
-    background: #000000;
-    border: 5px solid #32C5FF;
-    color: #32C5FF; }
-  .button-jedi:active {
-    background: #32C5FF;
-    border: 5px solid #000000;
-    color: #000000; }
-
 .row {
   font-size: 0; }
 
@@ -264,6 +210,60 @@
           box-sizing: border-box;
   padding-left: 1em;
   padding-right: 0; }
+
+.button-primary {
+  width: 150px;
+  height: 65px;
+  border: 5px solid #F7B500;
+  font-family: StarJedi;
+  font-size: 1em;
+  text-align: center;
+  background-color: #1D1E1F;
+  color: #F7B500; }
+  .button-primary:hover {
+    background: #000000;
+    border: 5px solid #F7B500;
+    color: #F7B500; }
+  .button-primary:active {
+    background: #F7B500;
+    border: 5px solid #000000;
+    color: #000000; }
+
+.button-sith {
+  width: 150px;
+  height: 65px;
+  border: 5px solid #E02020;
+  font-family: StarJedi;
+  font-size: 1em;
+  text-align: center;
+  background-color: #1D1E1F;
+  color: #E02020; }
+  .button-sith:hover {
+    background: #000000;
+    border: 5px solid #E02020;
+    color: #E02020; }
+  .button-sith:active {
+    background: #E02020;
+    border: 5px solid #000000;
+    color: #000000; }
+
+.button-jedi {
+  width: 150px;
+  height: 65px;
+  border: 5px solid #32C5FF;
+  font-family: StarJedi;
+  font-size: 1em;
+  text-align: center;
+  background-color: #1D1E1F;
+  color: #32C5FF; }
+  .button-jedi:hover {
+    background: #000000;
+    border: 5px solid #32C5FF;
+    color: #32C5FF; }
+  .button-jedi:active {
+    background: #32C5FF;
+    border: 5px solid #000000;
+    color: #000000; }
 
 .text-center {
   text-align: center; }
