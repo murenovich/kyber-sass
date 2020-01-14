@@ -20,3 +20,8 @@
 .div2 { grid-area: 1 / 1 / 2 / 5; }
 .div3 { grid-area: 1 / 5 / 2 / 9; }
 .div4 { grid-area: 1 / 9 / 2 / 13; }
+
+/* Column Border for Testing Only */
+.row > div {
+  border: 1px solid black;
+}

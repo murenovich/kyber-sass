@@ -6,7 +6,6 @@
 .col-1-f { @include col(1,12,$first: true); }
 .col-1 { @include col(1,12); }
 .col-1-l { @include col(1,12,$last: true); }
-
 // Half Columns
 .col-2-f { @include col(1,2,$first: true); }
 .col-2 { @include col(1,2); }
@@ -27,4 +26,7 @@
 .col-6-f { @include col(1,6,$first: true); }
 .col-6 { @include col(1,6); }
 .col-6-l { @include col(1,6,$last: true); }
-
+// Two-Thirds Columns
+.col-2-3-f { @include col(2,3,$first: true); }
+.col-2-3 { @include col(2,3); }
+.col-2-3-l { @include col(2,3,$last: true); }
