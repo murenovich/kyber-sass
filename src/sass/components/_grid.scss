@@ -1,0 +1,30 @@
+.row {
+  @include row;
+}
+
+// Single Columns
+.col-1-f { @include col(1,12,$first: true); }
+.col-1 { @include col(1,12); }
+.col-1-l { @include col(1,12,$last: true); }
+
+// Half Columns
+.col-2-f { @include col(1,2,$first: true); }
+.col-2 { @include col(1,2); }
+.col-2-l { @include col(1,2,$last: true); }
+// Thirds Columns
+.col-3-f { @include col(1,3,$first: true); }
+.col-3 { @include col(1,3); }
+.col-3-l { @include col(1,3,$last: true); }
+// Quarter Columns
+.col-4-f { @include col(1,4,$first: true); }
+.col-4 { @include col(1,4); }
+.col-4-l { @include col(1,4,$last: true); }
+// Fifths Columns
+.col-5-f { @include col(1,5,$first: true); }
+.col-5 { @include col(1,5); }
+.col-5-l { @include col(1,5,$last: true); }
+// Sixths Columns
+.col-6-f { @include col(1,6,$first: true); }
+.col-6 { @include col(1,6); }
+.col-6-l { @include col(1,6,$last: true); }
+
