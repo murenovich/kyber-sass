@@ -22,6 +22,6 @@
 .div4 { grid-area: 1 / 9 / 2 / 13; }
 
 /* Column Border for Testing Only */
-.row > div {
+/* .row > div {
   border: 1px solid black;
-}
+} */

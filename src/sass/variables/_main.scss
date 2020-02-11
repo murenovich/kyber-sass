@@ -7,6 +7,7 @@ $gold: #F7B500;
 $sithred: #E02020;
 $jediblue: #32C5FF;
 $bggrey: #1D1E1F;
+$gray-200: #e9ecef !default;
 
 
 // Font Size Variables
@@ -17,3 +18,9 @@ $h3-font-size: 2.5em;
 $h4-font-size: 2em;
 $h5-font-size: 1.5em;
 $h6-font-size: 1.25em;
+
+// Jumbotron
+
+$jumbotron-padding:                 2rem !default;
+$jumbotron-color:                   null !default;
+$jumbotron-bg:                      $gray-200 !default;
